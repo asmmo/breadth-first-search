@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/breadth_first_search.dir/main.cpp.obj"
-  "breadth_first_search.exe"
-  "breadth_first_search.exe.manifest"
-  "breadth_first_search.lib"
+  "CMakeFiles/breadth_first_search.dir/main.cpp.o"
+  "breadth_first_search"
   "breadth_first_search.pdb"
 )
 
