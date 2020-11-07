@@ -3,9 +3,8 @@
 #include <algorithm>
 #include <string>
 #include <concepts>
-#include <vector>
 #include <queue>
-
+#include <atomic>
 using namespace std::string_literals;
 
 
@@ -22,8 +21,6 @@ public:
     };
 
 private:
-    size_t time{};
-
     std::list<std::reference_wrapper<Vertex>> graph;
 
 
@@ -94,7 +91,6 @@ public:
  */
 
 int main() {
-
     Graph<std::string>::Vertex A{"A"s}, B{"B"s}, C{"C"s}, D{"D"s}, E{"E"s}, F{"F"s}, G{"G"s}, H{"H"s}, I{"I"s};
 
     Graph<std::string> g;
